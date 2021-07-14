@@ -1,0 +1,22 @@
+---
+layout: profile
+title: Phieu's dev-portfolio
+author: Tran Kha Phieu
+icon: japanese-dragon.ico
+background:
+  small: /assets/images/covers/nightcore-small.jpg
+  large: /assets/images/covers/nightcore-amzb3im.jpg
+  alt: Purple Miku in a purple lamborgini for web background
+---
+<div class="container">
+  {% include profile-header.html %}
+  {% include profile-navbar.html %}
+  {% include profile-about.html %}
+  {% include profile-experience.html %}
+  {% include profile-education.html %}
+  {% include profile-project.html %}
+  {% include profile-skill.html %}
+  {% include profile-contact.html %}
+  {% include profile-footer.html %}
+</div>
+<img class="img-ground blurry-load" src="{{ page.background.small }}" data-large="{{ page.background.large }}" alt="{{ page.background.alt }}"/>
